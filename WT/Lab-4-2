@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        a = [1,5,4,3,5,6,1,3];
+        document.write("Array :",a,"<br>");
+        a.push(7);
+        document.write("After push(7) : ",a,"<br>");
+        a.pop();
+        document.write("After pop() : ",a,"<br>");
+        a.shift();
+        document.write("After shift() : ",a,"<br>");
+        a.unshift(10);
+        document.write("After unshift(10) : ",a,"<br>");
+        b = a.splice(5);
+        document.write("After splice(11) : "+a+"<br>"+b+"<br>");
+        a.sort(3);
+        document.write("After sort(3) :",a,"<br>");
+        
+
+
+        document.write("After :",a);
+    </script>
+</body>
+</html>
