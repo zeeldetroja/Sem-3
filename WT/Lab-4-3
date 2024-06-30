@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        student = [
+            {
+                "name" : "Arjun",
+                "age" : 25 ,
+                "id" : 123,
+                "branch" : "cse",
+            },
+            {
+                "name" : "Arjun2",
+                "age" : 20 ,
+                "id" : 451,
+                "branch" : "bba",
+            },
+            {
+                "name" : "Arjun3",
+                "age" : 18 ,
+                "id" : 345,
+                "branch" : "cse",
+            },
+            {
+                "name" : "Arjun4",
+                "age" : 30 ,
+                "id" : 987,
+                "branch" : "cse",
+            }
+        ]
+        document.write("<table border=1>")
+        
+            document.write("<tr>");
+                document.write("<th> Name </th>");
+                document.write("<th>age</th>");
+                document.write("<th>id</th>");
+                document.write("<th>branch</th>");
+                    document.write("</tr>");
+      
+        for(i = 0 ; i < student.length ; i++){
+            document.write("<tr>");
+                document.write("<td>" + student[i].name+"</td>");
+                document.write("<td>" + student[i].age+"</td>");
+                document.write("<td>" + student[i].id+"</td>");
+                document.write("<td>" + student[i].branch+"</td>");
+                    document.write("</tr>");
+        }
+
+        
+    </script>
+</body>
+</html>
